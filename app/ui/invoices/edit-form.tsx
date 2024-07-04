@@ -22,7 +22,7 @@ export default function EditInvoiceForm({
 
   return (
     // Passing an id as argument won't work
-    <form action={updateInvoiceWithId}>
+    <form action={updateInvoice}>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
         {/* Customer Name */}
         <div className="mb-4">
